@@ -1,46 +1,25 @@
-import { useState } from "react";
-import styled from "styled-components";
-import Button from "./Button";
-import CustomInput from "./Input";
+import { useState } from 'react';
+//import styled from 'styled-components';
+import Button from './Button';
+import CustomInput from './Input';
 // uses styled-components to create a react component based off of
 // tagged template literals
-const ControlDiv = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
+// const TextButton = styled.button`
+//   color: #f0b322;
+//   border: none;
 
-  //for nested styling
-  & label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: "#6b7280";
-  }
-  & label.invalid {
-    color: #f87171;
-  }
-`;
-
-const TextButton = styled.button`
-  color: #f0b322;
-  border: none;
-
-  &:hover {
-    color: #f0920e;
-  }
-`;
+//   &:hover {
+//     color: #f0920e;
+//   }
+// `;
 
 export default function AuthInputs() {
-  const [enteredEmail, setEnteredEmail] = useState("");
-  const [enteredPassword, setEnteredPassword] = useState("");
+  const [enteredEmail, setEnteredEmail] = useState('');
+  const [enteredPassword, setEnteredPassword] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
   function handleInputChange(identifier, value) {
-    if (identifier === "email") {
+    if (identifier === 'email') {
       setEnteredEmail(value);
     } else {
       setEnteredPassword(value);
@@ -51,49 +30,32 @@ export default function AuthInputs() {
     setSubmitted(true);
   }
 
-  const emailNotValid = submitted && !enteredEmail.includes("@");
+  const emailNotValid = submitted && !enteredEmail.includes('@');
   const passwordNotValid = submitted && enteredPassword.trim().length < 6;
 
   return (
-    <div id="auth-inputs">
-      <ControlDiv>
-        {/* 
-        Example using nested strings with Styled Components
-        <p>
-          <label className={emailNotValid ? 'invalid' : undefined}>Email</label>
-          <Input
-            type="email"
-            //className={emailNotValid ? 'invalid' : undefined}
-            onChange={(event) => handleInputChange("email", event.target.value)}
-          />
-        </p>
-        <p>
-          <label className={passwordNotValid ? 'invalid' : undefined}>Password</label>
-          <Input
-            $invalid={passwordNotValid}
-            type="password"
-            onChange={(event) =>
-              handleInputChange("password", event.target.value)
-            }
-          />
-        </p> */}
+    <div
+      id="auth-inputs"
+      className="mx-auto w-full max-w-sm rounded bg-gradient-to-tr from-slate-800 to-slate-900 p-8 shadow-md"
+    >
+      <div className="mb-6 flex flex-col gap-2">
         <CustomInput
           label="email"
           invalid={emailNotValid}
-          onChange={(event) => handleInputChange("email", event.target.value)}
+          onChange={(event) => handleInputChange('email', event.target.value)}
           type="email"
         />
         <CustomInput
           label="password"
           invalid={passwordNotValid}
           onChange={(event) =>
-            handleInputChange("password", event.target.value)
+            handleInputChange('password', event.target.value)
           }
           type="password"
         />
-      </ControlDiv>
-      <div className="actions">
-        <TextButton type="button">Create a new account</TextButton>
+      </div>
+      <div className="flex justify-end gap-4">
+        <button className='text-amber-400 hover:text-[#ffffff]' type="button">Create a new account</button>
         <Button onClick={handleLogin}>Sign In</Button>
       </div>
     </div>
