@@ -1,6 +1,5 @@
 import { useState, useRef, Fragment } from "react";
 import ResultModal from "./ResultModal";
-import { use } from "react";
 
 export default function TimerChallenge({ title, targetTime }) {
   const [timeRemaining, setTimeRemaining] = useState(targetTime * 1000);
