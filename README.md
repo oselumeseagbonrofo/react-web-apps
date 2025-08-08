@@ -10,3 +10,5 @@ Basic Product App using React Router: A basic app that demonstrates the use of R
 Events App: Built an events app that allows users to view, create, update and delete events without authentication
 
 Events App With Authentication: Improved event app by adding authentication to the site using React Router
+
+Blog App: Gained knowledge on deploying React apps by applying optimisation techniques such as lazy loading pages, built code for production and deployed app to Firebase. [Live site](https://react-deployment-cc7a3.web.app/)
