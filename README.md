@@ -15,6 +15,6 @@ Blog App: Gained knowledge on deploying React apps by applying optimisation tech
 
 TabStack Query Events App: An events app made with TanStack Query. It features the use of TanStack/ React Query for data fetching, and transfer. The efficiency and ease provided by TanStack Query in HTTP request handling is demonstrated via this project. It's use for optimistic updating is also demonstrated
 
-NextJS Blog App: An introduction to the NextJS using a blog app to demonstrate routing, page linking and NextJS project structure
+NextJS Blog App: An introduction to the NextJS using a blog app to demonstrate routing, page linking and NextJS project structure. This project also demonstrates the use of App Router for page routing.
 
-NextJS Food Sharing App: Food sharing app that allows users to view food recipes and share their own recipes. It demonstrates the capabilities of NextJS for routing, image optimisation, app production building, metadata creation, styling and use of React Server Components and Clients together.
+NextJS Food Sharing App: Food sharing app that allows users to view food recipes and share their own recipes. It demonstrates the capabilities of NextJS for routing, image optimisation, app production building, metadata creation, styling and use of React Server Components and Clients together. This project fully demonstrates of the capabilities of App Router for NextJS page routing.
