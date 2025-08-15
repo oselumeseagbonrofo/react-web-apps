@@ -12,3 +12,5 @@ Events App: Built an events app that allows users to view, create, update and de
 Events App With Authentication: Improved event app by adding authentication to the site using React Router
 
 Blog App: Gained knowledge on deploying React apps by applying optimisation techniques such as lazy loading pages, built code for production and deployed app to Firebase. [Live site](https://react-deployment-cc7a3.web.app/)
+
+TabStack Query Events App: An events app made with TanStack Query. It features the use of TanStack/ React Query for data fetching, and transfer. The efficiency and ease provided by TanStack Query in HTTP request handling is demonstrated via this project. It's use for optimistic updating is also demonstrated
