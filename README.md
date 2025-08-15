@@ -14,3 +14,5 @@ Events App With Authentication: Improved event app by adding authentication to t
 Blog App: Gained knowledge on deploying React apps by applying optimisation techniques such as lazy loading pages, built code for production and deployed app to Firebase. [Live site](https://react-deployment-cc7a3.web.app/)
 
 TabStack Query Events App: An events app made with TanStack Query. It features the use of TanStack/ React Query for data fetching, and transfer. The efficiency and ease provided by TanStack Query in HTTP request handling is demonstrated via this project. It's use for optimistic updating is also demonstrated
+
+NextJS Blog App: An introduction to the NextJS using a blog app to demonstrate routing, page linking and NextJS project structure
