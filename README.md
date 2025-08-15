@@ -18,3 +18,5 @@ TabStack Query Events App: An events app made with TanStack Query. It features t
 NextJS Blog App: An introduction to the NextJS using a blog app to demonstrate routing, page linking and NextJS project structure. This project also demonstrates the use of App Router for page routing.
 
 NextJS Food Sharing App: Food sharing app that allows users to view food recipes and share their own recipes. It demonstrates the capabilities of NextJS for routing, image optimisation, app production building, metadata creation, styling and use of React Server Components and Clients together. This project fully demonstrates of the capabilities of App Router for NextJS page routing.
+
+NextJS Page Router Demo App: Demo web app to demonstrate the use of page router for routing in NextJS apps.
