@@ -1,4 +1,5 @@
 # react-web-apps
+
 A collection of React web apps built for experience
 
 Shopping Cart App: Built to focus on the usage of useContext() and useReducer() for advanced state management and context sharing
@@ -13,10 +14,12 @@ Events App With Authentication: Improved event app by adding authentication to t
 
 Blog App: Gained knowledge on deploying React apps by applying optimisation techniques such as lazy loading pages, built code for production and deployed app to Firebase. [Live site](https://react-deployment-cc7a3.web.app/)
 
-TabStack Query Events App: An events app made with TanStack Query. It features the use of TanStack/ React Query for data fetching, and transfer. The efficiency and ease provided by TanStack Query in HTTP request handling is demonstrated via this project. It's use for optimistic updating is also demonstrated
+TanStack Query Events App: An events app made with TanStack Query. It features the use of TanStack/ React Query for data fetching, and transfer. The efficiency and ease provided by TanStack Query in HTTP request handling is demonstrated via this project. It's use for optimistic updating is also demonstrated
 
 NextJS Blog App: An introduction to the NextJS using a blog app to demonstrate routing, page linking and NextJS project structure. This project also demonstrates the use of App Router for page routing.
 
 NextJS Food Sharing App: Food sharing app that allows users to view food recipes and share their own recipes. It demonstrates the capabilities of NextJS for routing, image optimisation, app production building, metadata creation, styling and use of React Server Components and Clients together. This project fully demonstrates of the capabilities of App Router for NextJS page routing.
 
 NextJS Page Router Demo App: Demo web app to demonstrate the use of page router for routing in NextJS apps.
+
+RSC Data Fetching App: Demo app built with React Server Components to demonstrate its use for data fetching and combination for displaying a fallback component while loading using `<Suspense />` component and for error handling using `<ErrorBoundary />` component
